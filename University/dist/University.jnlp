@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="University.jnlp">
+  <information>
+    <title>University</title>
+    <vendor>moh.brown</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="University.jar" size="329438" download="eager" />
+    <jar href="lib\bcprov-jdk16-1.45.jar" size="1719483" download="eager" />
+    <jar href="lib\commons-lang-2.6.jar" size="284220" download="eager" />
+    <jar href="lib\commons-logging-1.1.3.jar" size="62050" download="eager" />
+    <jar href="lib\hsqldb-2.2.8.jar" size="1395415" download="eager" />
+    <jar href="lib\jackcess-2.1.2.jar" size="816827" download="eager" />
+    <jar href="lib\jackcess-encrypt-2.1.1.jar" size="83884" download="eager" />
+    <jar href="lib\ucanaccess-3.0.2.jar" size="317025" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="University" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="university.Login"  name="University" />
+  <update check="always"/>
+</jnlp>
